@@ -1,0 +1,9 @@
+{
+	"name": "Small",
+	"description": "You can barely see over a block. Sneak to fit in a 1 block space.",
+	"icon": "minecraft:spruce_stairs",
+	"powers": [
+		"esi:power_small"
+	],
+	"impact": 1
+}

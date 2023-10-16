@@ -1,0 +1,10 @@
+{
+	"name": "Tiny",
+	"description": "Fit in a 1 block space with ease. You may need help getting around.",
+	"icon": "minecraft:spruce_slab",
+	"powers": [
+		"esi:power_tiny",
+		"esi:power_tiny_ride"
+	],
+	"impact": 2
+}

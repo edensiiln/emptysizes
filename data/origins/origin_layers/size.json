@@ -1,0 +1,12 @@
+{
+  "name": "Size",
+  "origins": [
+    "esi:size_default",
+    "esi:size_small",
+    "esi:size_tiny",
+    "esi:size_very_tiny",
+    "esi:size_tall"
+  ],
+  "replace": true,
+  "order": 1
+}

@@ -1,0 +1,30 @@
+{
+	"name": "You're tiny!",
+	"description": "40% scale\n50% speed\n50% jump height\n50% step height",
+	"type": "origins:action_on_callback",
+	"entity_action_chosen": {
+		"type": "origins:and",
+		"actions": [
+			{
+				"type": "origins:execute_command",
+				"command": "scale persist set true @s"
+			},
+			{
+				"type": "origins:execute_command",
+				"command": "scale set pehkui:height 0.4 @s"
+			},
+			{
+				"type": "origins:execute_command",
+				"command": "scale set pehkui:width 0.4 @s"
+			},
+			{
+				"type": "origins:execute_command",
+				"command": "scale set pehkui:motion 0.5 @s"
+			}
+		]
+	},
+	"entity_action_lost": {
+		"type": "origins:execute_command",
+		"command": "scale reset @s"
+	}
+}

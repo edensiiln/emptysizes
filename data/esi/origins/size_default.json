@@ -1,0 +1,9 @@
+{
+	"name": "Default",
+	"description": "No gameplay change.",
+	"icon": "minecraft:spruce_planks",
+	"powers": [
+		"esi:power_default"
+	],
+	"impact": 0
+}

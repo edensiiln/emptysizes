@@ -1,0 +1,9 @@
+{
+	"name": "Tall",
+	"description": "Sneak to fit in a 2 block space.",
+	"icon": "minecraft:spruce_log",
+	"powers": [
+		"esi:power_tall"
+	],
+	"impact": 1
+}

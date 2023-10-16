@@ -1,0 +1,10 @@
+{
+	"name": "Very Tiny",
+	"description": "Fit in a 0.5 block space with ease. You may need help getting around.",
+	"icon": "minecraft:spruce_trapdoor",
+	"powers": [
+		"esi:power_very_tiny",
+		"esi:power_tiny_ride"
+	],
+	"impact": 3
+}

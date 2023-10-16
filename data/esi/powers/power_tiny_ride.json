@@ -1,0 +1,50 @@
+{
+	"name": "Holdable",
+	"description": "You can ride and be picked up by players of default size or larger. To do so, either of you must use (right-click) the other while the larger player crouches.",
+	"type": "origins:multiple",
+	"on_use": {
+		"type": "origins:action_on_entity_use",
+		"bientity_condition": {
+			"type": "origins:target_condition",
+			"condition": {
+				"type": "origins:and",
+				"conditions": [
+					{
+						"type": "origins:origin",
+						"origin": "esi:size_default"
+					},
+					{
+						"type": "origins:sneaking"
+					}
+				]	
+			}
+		},
+		"bientity_action": {
+			"type": "origins:mount"
+		}
+	},
+	"on_being_used": {
+		"type": "origins:action_on_being_used",
+		"bientity_condition": {
+			"type": "origins:actor_condition",
+			"condition": {
+				"type": "origins:and",
+				"conditions": [
+					{
+						"type": "origins:origin",
+						"origin": "esi:size_default"
+					},
+					{
+						"type": "origins:sneaking"
+					}
+				]	
+			}
+		},
+		"bientity_action": {
+			"type": "origins:invert",
+			"action": {
+				"type": "origins:mount"
+			}
+		}
+	}
+}
