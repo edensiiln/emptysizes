@@ -10,8 +10,17 @@
 				"type": "origins:and",
 				"conditions": [
 					{
-						"type": "origins:origin",
-						"origin": "esi:size_default"
+						"type": "origins:or",
+						"conditions": [
+							{
+								"type": "origins:origin",
+								"origin": "esi:size_default"
+							},
+							{
+								"type": "origins:origin",
+								"origin": "esi:size_tall"
+							}
+						]
 					},
 					{
 						"type": "origins:sneaking"
