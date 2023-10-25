@@ -24,6 +24,10 @@
 			{
 				"type": "origins:execute_command",
 				"command": "scale set pehkui:falling 0.5 @s"
+			},
+			{
+				"type": "origins:execute_command",
+				"command": "scale set pehkui:reach 0.5 @s"
 			}
 		]
 	},
