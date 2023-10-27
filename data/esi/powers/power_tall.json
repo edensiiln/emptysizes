@@ -19,7 +19,7 @@
 			},
 			{
 				"type": "origins:execute_command",
-				"command": "scale set pehkui:jump_height 1.2 @s"
+				"command": "scale set pehkui:motion 1.2 @s"
 			},
 			{
 				"type": "origins:execute_command",
