@@ -19,7 +19,7 @@
 			},
 			{
 				"type": "origins:execute_command",
-				"command": "scale set pehkui:motion 0.5 @s"
+				"command": "scale set pehkui:motion 0.7 @s"
 			},
 			{
 				"type": "origins:execute_command",

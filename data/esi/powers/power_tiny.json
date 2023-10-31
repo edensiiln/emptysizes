@@ -1,6 +1,6 @@
 {
 	"name": "You're tiny!",
-	"description": "40% scale\n50% speed\n50% jump height\n50% step height",
+	"description": "40% scale\n50% speed\n80% jump height\n50% step height",
 	"type": "origins:action_on_callback",
 	"entity_action_chosen": {
 		"type": "origins:and",
@@ -19,7 +19,7 @@
 			},
 			{
 				"type": "origins:execute_command",
-				"command": "scale set pehkui:motion 0.5 @s"
+				"command": "scale set pehkui:motion 0.8 @s"
 			},
 			{
 				"type": "origins:execute_command",
@@ -27,7 +27,7 @@
 			},
 			{
 				"type": "origins:execute_command",
-				"command": "scale set pehkui:reach 0.7 @s"
+				"command": "scale set pehkui:reach 0.8 @s"
 			}
 		]
 	},
