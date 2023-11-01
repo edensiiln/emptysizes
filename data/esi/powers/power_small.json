@@ -1,6 +1,6 @@
 {
 	"name": "You're small!",
-	"description": "66% scale\n90% speed\n90% jump height\n90% reach",
+	"description": "66% scale\n90% speed\n90% jump height",
 	"type": "origins:action_on_callback",
 	"entity_action_chosen": {
 		"type": "origins:and",
@@ -27,7 +27,7 @@
 			},
 			{
 				"type": "origins:execute_command",
-				"command": "scale set pehkui:falling 0.8 @s"
+				"command": "scale set pehkui:falling 0.9 @s"
 			},
 			{
 				"type": "origins:execute_command",
